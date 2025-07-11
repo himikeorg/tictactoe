@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+}
+
+.game-start {
+    margin-top: 60px;
+    align-self: center;
+}
+
+.start-reset {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.game-info {
+    margin: 40px 0px;
+}
+
+.gameboard {
+    display: none;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.game-cell {
+    height: 100px;
+    width: 100px;
+}
+
+.start {
+    margin: auto;
+}

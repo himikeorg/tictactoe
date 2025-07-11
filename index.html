@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="game-start">
+        <label for="player1">Player 1 Name</label>
+        <input type="text" id="player1" name="player1">
+        <label for="player2">Player 2 Name</label>
+        <input type="text" id="player2" name="player2">
+        <div class="start-reset">
+            <button class="start">Start game</button>
+        </div>
+    </div>
+    <div class="game-info">
+        Fill in names and click Start Game!
+    </div>
+    <div class="gameboard">
+        <button class="game-cell" data-y="0" data-x="0"></button>
+        <button class="game-cell" data-y="0" data-x="1"></button>
+        <button class="game-cell" data-y="0" data-x="2"></button>
+        <button class="game-cell" data-y="1" data-x="0"></button>
+        <button class="game-cell" data-y="1" data-x="1"></button>
+        <button class="game-cell" data-y="1" data-x="2"></button>
+        <button class="game-cell" data-y="2" data-x="0"></button>
+        <button class="game-cell" data-y="2" data-x="1"></button>
+        <button class="game-cell" data-y="2" data-x="2"></button>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
